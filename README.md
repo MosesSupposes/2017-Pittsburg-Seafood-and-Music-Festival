@@ -21,9 +21,9 @@ Then, open up the dev tools (F12 for chrome or Crtl/Cmd + Shift + J for firefox)
 Finally, push your feature additions or bug fixes to master by opening a pull request and awaiting a code review from a fellow team member. (Feel free to request a review!)
 
 __Additional Tips & Guidelines:__
-+ Only edit/ create CSS and JS files for this project, no HTML additions! (Unless its header information.)
-..+ In the event that you do add an HTML partial, add it in the root directory, not inside of any subfolders, that way our theme package remains exportable to the Weebly platform.
-+ To add CSS, include any custom files in the styles folder (obviously), and make sure to link to it in main.less.
-..+ Do not edit main.less directly, unless importing an external CSS stylesheet. Here's a helpful resource on how to make CSS additions to a Weebly theme (ignore the direct CMS modification aspect of the article): https://www.webnots.com/how-to-add-css-in-weebly-site/
-+ To add a JS script, the Weebly standard-compliant way to do so would be to add any JS files in the assets folder and link to it in the header HTML files. For more detailed information on that subject, check out this article: https://www.webnots.com/how-to-add-javascript-in-weebly-site/
-+ [jQuery API Docs](https://jquery.com/)
+* Only edit/ create CSS and JS files for this project, no HTML additions! (Unless its header information.)
+..* In the event that you do add an HTML partial, add it in the root directory, not inside of any subfolders, that way our theme package remains exportable to the Weebly platform.
+* To add CSS, include any custom files in the styles folder (obviously), and make sure to link to it in main.less.
+..* Do not edit main.less directly, unless importing an external CSS stylesheet. Here's a helpful resource on how to make CSS additions to a Weebly theme (ignore the direct CMS modification aspect of the article): https://www.webnots.com/how-to-add-css-in-weebly-site/
+* To add a JS script, the Weebly standard-compliant way to do so would be to add any JS files in the assets folder and link to it in the header HTML files. For more detailed information on that subject, check out this article: https://www.webnots.com/how-to-add-javascript-in-weebly-site/
+* [jQuery API Docs](https://jquery.com/)
